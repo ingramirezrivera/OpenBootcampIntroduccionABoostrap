@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+}
+
+.btn-modern{
+    display: flex;
+    padding: 35px;
+    margin:  35px auto;
+    background-color: aquamarine;
+    border: none;
+    font-size: 4rem;
+    border-radius: 20px;
+    transition: 0.4s;
+}
+.btn-modern:hover{
+    transform: translateY(-5px);
+    box-shadow: 3px 3px black, -1em 0 0.4em gray;
+    opacity: 0.5;
+    color: green;
+}
